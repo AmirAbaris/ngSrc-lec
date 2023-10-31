@@ -30,6 +30,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { NormalImageComponent } from './components/normal-image/normal-image.component';
 import { AdvancedImageComponent } from './components/advanced-image/advanced-image.component';
 
+import { NgOptimizedImage } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +44,8 @@ import { AdvancedImageComponent } from './components/advanced-image/advanced-ima
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]

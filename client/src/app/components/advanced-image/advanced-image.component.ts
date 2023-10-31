@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./advanced-image.component.scss']
 })
 export class AdvancedImageComponent {
-
 }
