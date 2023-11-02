@@ -31,13 +31,17 @@ import { NormalImageComponent } from './components/normal-image/normal-image.com
 import { AdvancedImageComponent } from './components/advanced-image/advanced-image.component';
 
 import { NgOptimizedImage } from '@angular/common';
+import { AdvancedImageLoopComponent } from './components/advanced-image-loop/advanced-image-loop.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NormalImageComponent,
-    AdvancedImageComponent
+    AdvancedImageComponent,
+    AdvancedImageLoopComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +49,8 @@ import { NgOptimizedImage } from '@angular/common';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
